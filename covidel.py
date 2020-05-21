@@ -7,8 +7,8 @@ if __name__ == "__main__":
 
     querystring = {"format": "json", "code": "ro"}
     headers = {
-        'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-        'x-rapidapi-key': "0240d67b2bmshafc97846523153bp1b999cjsnc279286892c4"
+        'x-rapidapi-host': "",
+        'x-rapidapi-key': ""
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
